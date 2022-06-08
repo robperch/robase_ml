@@ -16,7 +16,7 @@ data_schema = {
         'value_map': ([dict] dict with keys as original name and value as the substitution),
 
         ## For ML 
-        'feature_type': ([string] feature type for feature engineering (categoric, numeric)),
+        'feature_type': ([string] feature type for feature engineering (categorical, numeric)),
         'model_relevant': ([boolean] indicating if the feature will be fed to the model),
         'id_feature': ([boolean] boolean to indicate if this is the id feature in the dataset),
         'predict_label': ([boolean] boolean to indicate if this is the predict label in the dataset),
